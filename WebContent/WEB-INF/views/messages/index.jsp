@@ -8,6 +8,7 @@
             </div>
         </c:if>
         <h2>メッセージ一覧</h2>
+ <!--
         <ul>
             <c:forEach var="message" items="${messages}">
                 <li>
@@ -18,6 +19,7 @@
                 </li>
             </c:forEach>
         </ul>
+-->
         <div id="pagination">
             （全 ${messages_count} 件）<br />
             <c:forEach var="i" begin="1" end="${((messages_count - 1) / 15) + 1}" step="1">
