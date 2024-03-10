@@ -1,4 +1,4 @@
-package task_models;
+package models;
 
 import java.sql.Timestamp;
 
@@ -24,7 +24,7 @@ import javax.persistence.Table;
             )
 })
 @Table(name = "messages")
-public class TaskMessage {
+public class Message {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
